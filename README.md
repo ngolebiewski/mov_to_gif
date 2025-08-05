@@ -1,5 +1,16 @@
-Mov or mp4 to gif
+#Video (.mov or .mp4) to GIF
 
-`python3 main.py IMG_8639.MOV bus_screen.gif --fps 10 --scale 0.33`
+Sample Usage:
+`python3 mov_to_gif.py IMG_7709.MOV shore.gif --scale 0.25 --fps 8`
 
-Needs ffmpeg on your machine
+Needs ffmpeg installed on your machine
+
+Use case:
+- Make an animated gif to put in your GitHub ReadMe
+- Anywhere else where you want a gif
+
+![Waves coming in on Atlantic Beach](shore.gif)
+
+Thanks,
+Nick
+
